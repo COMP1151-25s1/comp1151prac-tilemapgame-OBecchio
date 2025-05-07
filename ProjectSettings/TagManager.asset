@@ -8,10 +8,10 @@ TagManager:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - Map
+  - Player
   - Water
   - UI
-  - Player
+  - hazard
   - 
   - 
   - 

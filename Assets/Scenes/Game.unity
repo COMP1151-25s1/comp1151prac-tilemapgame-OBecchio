@@ -127,9 +127,37 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 246769291112742458, guid: 4de86f5ff2fa77247bfd146aff7a995e, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1085710163114992797, guid: 4de86f5ff2fa77247bfd146aff7a995e, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3445648695643552686, guid: 4de86f5ff2fa77247bfd146aff7a995e, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3644127485538535330, guid: 4de86f5ff2fa77247bfd146aff7a995e, type: 3}
       propertyPath: m_Name
       value: Main tile
+      objectReference: {fileID: 0}
+    - target: {fileID: 3644127485538535330, guid: 4de86f5ff2fa77247bfd146aff7a995e, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4965533430924863261, guid: 4de86f5ff2fa77247bfd146aff7a995e, type: 3}
+      propertyPath: m_IsTrigger
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5270915263077258823, guid: 4de86f5ff2fa77247bfd146aff7a995e, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8872772472543978800, guid: 4de86f5ff2fa77247bfd146aff7a995e, type: 3}
+      propertyPath: m_Layer
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8903383655167681480, guid: 4de86f5ff2fa77247bfd146aff7a995e, type: 3}
       propertyPath: m_LocalPosition.x
@@ -170,6 +198,10 @@ PrefabInstance:
     - target: {fileID: 8903383655167681480, guid: 4de86f5ff2fa77247bfd146aff7a995e, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9214251170512983210, guid: 4de86f5ff2fa77247bfd146aff7a995e, type: 3}
+      propertyPath: m_Enabled
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -247,7 +279,7 @@ GameObject:
   - component: {fileID: 603847103}
   - component: {fileID: 603847102}
   - component: {fileID: 603847101}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Main Camera
   m_TagString: MainCamera
   m_Icon: {fileID: 0}
@@ -297,7 +329,7 @@ Camera:
   far clip plane: 1000
   field of view: 60
   orthographic: 1
-  orthographic size: 5
+  orthographic size: 0.91288793
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -336,21 +368,26 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 4252202921648196950, guid: 31ebefa86b1903b47ae9522effa29b2e, type: 3}
+      propertyPath: _data._json
+      value: '{"declarations":{"Kind":"Object","collection":{"$content":[{"name":"movementSpeed","value":{"$content":3.0,"$type":"System.Single"},"typeHandle":{"Identification":"System.Single,
+        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+      objectReference: {fileID: 0}
     - target: {fileID: 6215079797964666765, guid: 31ebefa86b1903b47ae9522effa29b2e, type: 3}
       propertyPath: m_Name
       value: Player
       objectReference: {fileID: 0}
     - target: {fileID: 6215079797964666765, guid: 31ebefa86b1903b47ae9522effa29b2e, type: 3}
       propertyPath: m_Layer
-      value: 6
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 7495099632906085229, guid: 31ebefa86b1903b47ae9522effa29b2e, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 1.972
+      value: -0.191
       objectReference: {fileID: 0}
     - target: {fileID: 7495099632906085229, guid: 31ebefa86b1903b47ae9522effa29b2e, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 1.088
+      value: 1.69
       objectReference: {fileID: 0}
     - target: {fileID: 7495099632906085229, guid: 31ebefa86b1903b47ae9522effa29b2e, type: 3}
       propertyPath: m_LocalPosition.z
@@ -518,7 +555,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 1
   m_Sprite: {fileID: 2557384488985277669, guid: 081bcce4e94c2fd4db4ae6c6b9cc7774, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -534,6 +571,6 @@ SpriteRenderer:
 SceneRoots:
   m_ObjectHideFlags: 0
   m_Roots:
-  - {fileID: 879871965}
   - {fileID: 569054977}
   - {fileID: 430774331}
+  - {fileID: 879871965}
